@@ -1,7 +1,7 @@
 // import { dateFormat } from "@/lib";
 import { dateFormat } from "@/lib/date";
 import Link from "next/link";
-import { ContentProps } from "../types";
+import { ContentProps } from "../app/types";
 
 export function BlogListItem({ item }: { item: ContentProps }) {
   return (
